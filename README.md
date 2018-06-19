@@ -48,7 +48,7 @@ Before we start using the Java S2I image we need to tell OpenShift how to find i
 
 Now you can deploy the service from github
 
-`$ oc new-app https://github.com/bugbiteme/catalog-spring-boot.git --name catalog --image-stream=redhat-openjdk18-openshift`
+`$ oc new-app https://github.com/kovarus/catalog-spring-boot.git --name catalog --image-stream=redhat-openjdk18-openshift`
 
 A build gets created and starts building the Node.js Web UI container image. You can see the build logs using OpenShift Web Console or OpenShift CLI:
 
